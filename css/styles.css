@@ -974,7 +974,7 @@ button {
     flex-wrap: wrap;
     align-items: baseline;
     gap: 24px;
-    width: 584px;
+    max-width: 584px;
   }
   .social-footer-info {
     display: flex;
@@ -1011,6 +1011,7 @@ button {
   .footer-info {
     flex-wrap: nowrap;
     gap: 0;
+    max-width: 1158px;
   }
 
   .footer-content {
